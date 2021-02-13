@@ -1,0 +1,109 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: left;
+}
+.App-logo {
+  height: 40vmin;
+}
+.App-header {
+  background-color:#282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.pricing{
+  background-color: #5390c5;
+position: relative;
+left: 500px;}
+.help{
+  background-color: #bcbfc2;
+  color: black;
+position: relative;
+left: 530px;
+}
+.eu{
+  background-color: #bcbfc2;
+  color: black;
+position: relative;
+left: 500px;
+}
+
+
+.note {
+  background:rgb(89, 0, 255);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 200px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  color: white;
+  font-size: 1.9em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 2.9em;
+  color: white;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.Updates {
+  background:rgb(89, 0, 255);
+  border-radius: 7px;
+  padding: 10px;
+  width: 380px;
+  margin: 16px;
+  float: left;
+}
+.Updates h1 {
+  font-family: Merriweather;
+  color:black;
+  font-size: 1.9em;
+  margin-bottom: 6px;
+}
+.Updates p {
+  font-size: 0.9em;
+  color:blue;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.upgrade {
+  background:rgb(89, 0, 255);
+  border-radius: 7px;
+  padding: 10px;
+  width: 380px;
+  margin: 16px;
+  float: left;
+}
+.upgrade h1 {
+  font-family: Merriweather;
+  color:#0000e6;
+  font-size: 2.1em;
+  margin-bottom: 2px;
+}
+.upgrade p {
+  font-size: 1.2em;
+  color:black;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.something{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
